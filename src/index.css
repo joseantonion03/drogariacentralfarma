@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+}
+
+
+html,
+body {
+  height: 100%;
+  background-color: #ffffff;
+}
+
+
+.background-image {
+  /* Garante que a imagem cubra todo o fundo */
+  pointer-events: none;
+  /* Impede que a imagem seja selecionada ou pressionada */
+  user-drag: none;
+  /* Desabilita arrastar e soltar em navegadores WebKit */
+  -webkit-user-drag: none;
+  /* Desabilita arrastar e soltar em navegadores WebKit */
+  user-select: none;
+}
+
