@@ -28,50 +28,50 @@ const Bemestar = () => {
                     </svg>
 
                     <div className="sm:absolute flex flex-wrap justify-center gap-x-20 max-xl:gap-x-2 gap-y-14 sm:top-[-220px] sm:left-[50%] sm:translate-x-[-50%] w-full max-w-[1090px] mx-auto max-xl:px-5 max-sm:px-10">
-                        <div className="relative w-[500px] max-xl:w-[calc(50%-10px)] max-sm:w-full max-sm:max-w-[500px]">
-                            <img className="background-image w-[235px] h-[440px]" src="/image/bemestar/item1.png" alt="Cuide da sua imunidade" />
+                        <div className="relative w-[500px] max-xl:w-[calc(50%-10px)] max-sm:w-full max-sm:max-w-[400px] max-sm:overflow-hidden max-sm:bg-secondary-color-red max-sm:rounded-xl">
+                            <img className="background-image w-[235px] h-[440px] max-sm:mx-auto max-sm:w-full max-sm:h-auto max-sm:max-h-[300px] max-screen400:max-h-[200px] object-cover" src="/image/bemestar/item1.png" alt="Cuide da sua imunidade" />
                             <div
-                                className="absolute top-[50%] translate-y-[-50%] left-[18%] w-[400px]  max-xl:w-[calc(80%-10px)] rounded-[12px] bg-secondary-color-red text-white font-medium py-14 px-8"
+                                className="sm:absolute sm:top-[50%] sm:translate-y-[-50%] sm:left-[18%] w-[400px] max-lg:mx-auto max-xl:w-[calc(80%-10px)] rounded-[12px] bg-secondary-color-red text-white font-medium py-14 max-sm:px-1 px-8"
                             >
                                 <h3 className="text-[24px]">Cuide da sua imunidade</h3>
                                 <p className="text-[16px] mt-4">Inclua alimentos ricos em vitaminas e suplemente com nossas vitaminas para fortalecer sua imunidade.</p>
                             </div>
                         </div>
-                        <div className="relative w-[500px] max-xl:w-[calc(50%-10px)] max-sm:w-full max-sm:max-w-[500px]">
-                            <img className="background-image w-[235px] h-[440px]" src="/image/bemestar/item2.png" alt="Cuide da sua imunidade" />
+                        <div className="relative w-[500px] max-xl:w-[calc(50%-10px)] max-sm:w-full max-sm:max-w-[400px] max-sm:overflow-hidden max-sm:bg-secondary-color-red max-sm:rounded-xl">
+                            <img className="background-image w-[235px] h-[440px] max-sm:mx-auto max-sm:w-full max-sm:h-auto max-sm:max-h-[300px] max-screen400:max-h-[200px] object-cover" src="/image/bemestar/item2.png" alt="Cuide da sua imunidade" />
                             <div
-                                className="absolute top-[50%] translate-y-[-50%] left-[18%] w-[400px] max-xl:w-[calc(80%-10px)] rounded-[12px] bg-secondary-color-red text-white font-medium py-14 px-8"
-                            >
+                                className="sm:absolute sm:top-[50%] sm:translate-y-[-50%] sm:left-[18%] w-[400px] max-lg:mx-auto max-xl:w-[calc(80%-10px)] rounded-[12px] bg-secondary-color-red text-white font-medium py-14 max-sm:px-1 px-8"
+                                >
                                 <h3 className="text-[24px]">Montando um Kit de Primeiros Socorros</h3>
                                 <p className="text-[16px] mt-4">Monte um kit de primeiros socorros com curativos, gaze, antissépticos e analgésicos. Confira nossas sugestões de produtos.</p>
                             </div>
                         </div>
 
-                        <div className="relative w-[500px] max-xl:w-[calc(50%-10px)] max-sm:w-full max-sm:max-w-[500px]">
-                            <img className="background-image w-[235px] h-[440px]" src="/image/bemestar/item3.png" alt="Cuide da sua imunidade" />
+                        <div className="relative w-[500px] max-xl:w-[calc(50%-10px)] max-sm:w-full max-sm:max-w-[400px] max-sm:overflow-hidden max-sm:bg-secondary-color-red max-sm:rounded-xl">
+                            <img className="background-image w-[235px] h-[440px] max-sm:mx-auto max-sm:w-full max-sm:h-auto max-sm:max-h-[300px] max-screen400:max-h-[200px] object-cover" src="/image/bemestar/item3.png" alt="Cuide da sua imunidade" />
                             <div
-                                className="absolute top-[50%] translate-y-[-50%] left-[18%] w-[400px] max-xl:w-[calc(80%-10px)] rounded-[12px] bg-secondary-color-red text-white font-medium py-14 px-8"
-                            >
+                                className="sm:absolute sm:top-[50%] sm:translate-y-[-50%] sm:left-[18%] w-[400px] max-lg:mx-auto max-xl:w-[calc(80%-10px)] rounded-[12px] bg-secondary-color-red text-white font-medium py-14 max-sm:px-1 px-8"
+                                >
                                 <h3 className="text-[24px]">Cuidados com a Pele</h3>
                                 <p className="text-[16px] mt-4">Hidrate a pele com produtos ricos em ceramidas e óleos naturais. Use protetor solar, mesmo em dias nublados.</p>
                             </div>
                         </div>
 
-                        <div className="relative w-[500px] max-xl:w-[calc(50%-10px)] max-sm:w-full max-sm:max-w-[500px]">
-                            <img className="background-image w-[235px] h-[440px]" src="/image/bemestar/item4.png" alt="Cuide da sua imunidade" />
+                        <div className="relative w-[500px] max-xl:w-[calc(50%-10px)] max-sm:w-full max-sm:max-w-[400px] max-sm:overflow-hidden max-sm:bg-secondary-color-red max-sm:rounded-xl">
+                            <img className="background-image w-[235px] h-[440px] max-sm:mx-auto max-sm:w-full max-sm:h-auto max-sm:max-h-[300px] max-screen400:max-h-[200px] object-cover" src="/image/bemestar/item4.png" alt="Cuide da sua imunidade" />
                             <div
-                                className="absolute top-[50%] translate-y-[-50%] left-[18%] w-[400px] max-xl:w-[calc(80%-10px)] rounded-[12px] bg-secondary-color-red text-white font-medium py-14 px-8"
-                            >
+                                className="sm:absolute sm:top-[50%] sm:translate-y-[-50%] sm:left-[18%] w-[400px] max-lg:mx-auto max-xl:w-[calc(80%-10px)] rounded-[12px] bg-secondary-color-red text-white font-medium py-14 max-sm:px-1 px-8"
+                                >
                                 <h3 className="text-[24px]">Prevenção de Doenças Sazonais</h3>
                                 <p className="text-[16px] mt-4">Fortaleça seu sistema imunológico com vitamina C e zinco. Nossas vacinas e suplementos ajudam a proteger você.</p>
                             </div>
                         </div>
 
-                        <div className="relative w-[500px] max-xl:w-[calc(50%-10px)] max-sm:w-full max-sm:max-w-[500px]">
-                            <img className="background-image w-[235px] h-[440px]" src="/image/bemestar/item5.png" alt="Cuide da sua imunidade" />
+                        <div className="relative w-[500px] max-xl:w-[calc(50%-10px)] max-sm:w-full max-sm:max-w-[400px] max-sm:overflow-hidden max-sm:bg-secondary-color-red max-sm:rounded-xl">
+                            <img className="background-image w-[235px] h-[440px] max-sm:mx-auto max-sm:w-full max-sm:h-auto max-sm:max-h-[300px] max-screen400:max-h-[200px] object-cover" src="/image/bemestar/item5.png" alt="Cuide da sua imunidade" />
                             <div
-                                className="absolute top-[50%] translate-y-[-50%] left-[18%] w-[400px] max-xl:w-[calc(80%-10px)] rounded-[12px] bg-secondary-color-red text-white font-medium py-14 px-8"
-                            >
+                                className="sm:absolute sm:top-[50%] sm:translate-y-[-50%] sm:left-[18%] w-[400px] max-lg:mx-auto max-xl:w-[calc(80%-10px)] rounded-[12px] bg-secondary-color-red text-white font-medium py-14 max-sm:px-1 px-8"
+                                >
                                 <h3 className="text-[24px]">Importância da Hidratação</h3>
                                 <p className="text-[16px] mt-4">Beba pelo menos 2 litros de água por dia. Nossos suplementos eletrolíticos ajudam a manter o equilíbrio hídrico.</p>
                             </div>
@@ -79,7 +79,7 @@ const Bemestar = () => {
                     </div>
 
                 </div>
-                <div className='py-16'>
+                <div className='py-16 px-10'>
                     <h3 className="text-black font-bold text-[29px] text-center mx-auto leading-[35px] px-10">Ficou com dúvida?</h3>
                     <p className="max-w-[630px] font-light text-black text-[20px] leading-[24px] text-center my-7 mx-auto">Ficou com dúvida? Mande-nos uma mensagem no WhatsApp para criarmos o seu kit personalizado de saúde e bem-estar.</p>
                     <div className='flex justify-center'>

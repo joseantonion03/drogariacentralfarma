@@ -4,17 +4,17 @@ const Produto = () => {
     return (
         <section
             id="produto"
-            className="flex w-full h-auto py-36 min-h-[860px] bg-img_bg_produto bg-contain bg-no-repeat bg-center"
+            className="flex w-full h-auto py-36 max-md:pt-0 min-h-[860px] lg:bg-img_bg_produto bg-contain bg-no-repeat bg-center"
         >
             <div
                 className="w-full mx-auto max-w-[1100px] px-5"
             >
                 <h2 className="text-black font-bold text-[40px] text-center leading-[45px] my-7">Nossos Produtos</h2>
 
-                <div className='w-full flex gap-4 my-20 max-lg:flex-wrap max-lg:w-full max-lg:max-w-[820px] max-sm:justify-center'>
+                <div className='w-full flex gap-4 my-20 max-lg:mb-3 max-lg:flex-wrap mx-auto max-lg:w-full max-lg:max-w-[820px] max-sm:justify-center'>
                     <div className='bg-white max-w-[400px] w-[calc(100%/3)] max-lg:w-[calc(50%-10px)] max-sm:w-full rounded-md overflow-hidden my-10'>
                         <div className='w-full h-[245px] overflow-hidden'>
-                            <img className='w-full h-full object-cover object-center' src="/image/produto/item1.jpg" alt="" />
+                            <img className='w-full h-full object-cover object-center' src="/image/produto/item1.jpg" alt="Produto" />
                         </div>
                         <div className='border border-solid border-[#F2F6FA] py-10 px-5'>
                             <h3 className='font-bold text-[24px] text-[#2E363E]'>Titulo do anuncio</h3>
@@ -28,7 +28,7 @@ const Produto = () => {
                     </div>
                     <div className='bg-white max-w-[400px] w-[calc(100%/3)] max-lg:w-[calc(50%-10px)] max-sm:w-full rounded-md overflow-hidden my-10'>
                         <div className='w-full h-[245px] overflow-hidden'>
-                            <img className='w-full h-full object-cover object-center' src="/image/produto/item2.jpg" alt="" />
+                            <img className='w-full h-full object-cover object-center' src="/image/produto/item2.jpg" alt="Produto" />
                         </div>
                         <div className='border border-solid border-[#F2F6FA] py-10 px-5'>
                             <h3 className='font-bold text-[24px] text-[#2E363E]'>Titulo do anuncio</h3>
@@ -42,7 +42,7 @@ const Produto = () => {
                     </div>
                     <div className='bg-white max-w-[400px] w-[calc(100%/3)] max-lg:w-[calc(50%-10px)] max-sm:w-full rounded-md overflow-hidden my-10'>
                         <div className='w-full h-[245px] overflow-hidden'>
-                            <img className='w-full h-full object-cover object-center' src="/image/produto/item3.jpg" alt="" />
+                            <img className='w-full h-full object-cover object-center' src="/image/produto/item3.jpg" alt="Produto" />
                         </div>
                         <div className='border border-solid border-[#F2F6FA] py-10 px-5'>
                             <h3 className='font-bold text-[24px] text-[#2E363E]'>Titulo do anuncio</h3>
