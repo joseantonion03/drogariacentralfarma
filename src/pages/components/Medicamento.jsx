@@ -10,7 +10,7 @@ const Medicamento = () => {
                 <div
                     className="w-[calc(100%-570px)] max-screen900:w-[35%] max-md:w-full max-md:max-w-[500px]"
                 >
-                    <img className="object-cover background-image w-full" src="/image/medicamento/capsulas.png" alt="Capsulas" />
+                    <img className="object-cover background-image w-full" src="/image/medicamento/capsulas.webp" alt="Capsulas" />
                 </div>
                 <div className="w-[530px] max-screen900:w-[60%] max-md:w-full  max-md:max-w-[600px]">
                     <h2 className="text-primary-color-red font-bold text-[40px] leading-[45px] my-7"><span className="text-black">Nossos</span> Tipos de

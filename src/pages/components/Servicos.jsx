@@ -25,7 +25,7 @@ const Servicos = () => {
                         />
                     </svg>
                     <div className="w-full h-full max-h-[680px] max-lg:max-h-[800px] rounded-[26px] overflow-hidden">
-                        <img className='w-full' src="/image/servico/servico.jpg" alt="Serviços" />
+                        <img className='w-full' src="/image/servico/servico.webp" alt="Serviços" />
                     </div>
                 </div>
                 <div className="w-[500px] max-lg:w-full max-lg:max-w-[700px] max-md:max-w-[500px] max-lg:mt-[50px]">

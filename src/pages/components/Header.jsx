@@ -44,10 +44,11 @@ const Header = () => {
 
     //ESCREVA O DIRETORIO DE CADA PÁGINA NESSE OBJETO
     const dirPage = {
-        servico: "#",
-        produto: "#",
-        bemestar: "#",
-        contato: "#"
+        servico: "#servicos",
+        produto: "#produto",
+        bemestar: "#bemestar",
+        contato: "#contato",
+        whatsapp: "https://wa.me/551133310007"
     }
 
     return (
@@ -77,14 +78,15 @@ const Header = () => {
                 </button>
                 <nav className='max-nav:hidden'>
                     <ul className="flex gap-6">
-                        <li><Link className="font-Regular text-[17px] text-white hover:text-red-200" to={dirPage.servico}>Serviços</Link></li>
-                        <li><Link className="font-Regular text-[17px] text-white hover:text-red-200" to={dirPage.produto}>Produtos</Link></li>
-                        <li><Link className="font-Regular text-[17px] text-white hover:text-red-200" to={dirPage.bemestar}>Bem-Estar</Link></li>
-                        <li><Link className="font-Regular text-[17px] text-white hover:text-red-200" to={dirPage.contato}>Contato</Link></li>
+                        <li><a className="font-Regular text-[17px] text-white hover:text-red-200" href={dirPage.servico}>Serviços</a></li>
+                        <li><a className="font-Regular text-[17px] text-white hover:text-red-200" href={dirPage.produto}>Produtos</a></li>
+                        <li><a className="font-Regular text-[17px] text-white hover:text-red-200" href={dirPage.bemestar}>Bem-Estar</a></li>
+                        <li><a className="font-Regular text-[17px] text-white hover:text-red-200" href={dirPage.contato}>Contato</a></li>
                     </ul>
                 </nav>
                 <div className='max-nav:hidden'>
                     <Link
+                        target='_blank'
                         to={dirPage.whatsapp}
                         className="bg-white py-4 px-10 font-medium text-[17px] text-primary-color-red rounded-full hover:bg-red-200 transition-colors duration-200 ease-linear "
                     >Entrar em contato</Link>
@@ -121,12 +123,13 @@ const Header = () => {
 
                         </div>
                         <ul className='flex flex-col py-4'>
-                            <li className="py-2 text-[#0B2B54] text-[20px] font-Regular"><Link to={dirPage.servico}>Serviços</Link></li>
-                            <li className="py-2 text-[#0B2B54] text-[20px] font-Regular"><Link to={dirPage.produto}>Produtos</Link></li>
-                            <li className="py-2 text-[#0B2B54] text-[20px] font-Regular"><Link to={dirPage.bemestar}>Bem-Estar</Link></li>
-                            <li className="py-2 text-[#0B2B54] text-[20px] font-Regular"><Link to={dirPage.contato}>Contato</Link></li>
+                            <li className="py-2 text-[#0B2B54] text-[20px] font-Regular"><a href={dirPage.servico}>Serviços</a></li>
+                            <li className="py-2 text-[#0B2B54] text-[20px] font-Regular"><a href={dirPage.produto}>Produtos</a></li>
+                            <li className="py-2 text-[#0B2B54] text-[20px] font-Regular"><a href={dirPage.bemestar}>Bem-Estar</a></li>
+                            <li className="py-2 text-[#0B2B54] text-[20px] font-Regular"><a href={dirPage.contato}>Contato</a></li>
                         </ul>
-                        <Link to={dirPage.whatsapp} className="select-none inline-block my-5 rounded-[5px] bg-primary-color-red hover:bg-secondary-color-red text-[#ffffff] font-Medium text-[20px] text-center w-full py-3">Entrar em contato</Link>
+                        <Link to={dirPage.whatsapp} target='_blank'
+                            className="select-none inline-block my-5 rounded-[5px] bg-primary-color-red hover:bg-secondary-color-red text-[#ffffff] font-Medium text-[20px] text-center w-full py-3">Entrar em contato</Link>
                     </div>
                 </animated.div>
                 {isOpen && <div className="overflay fixed top-0 left-0 w-full h-full bg-[#00000080] backdrop-blur-sm z-[998]" onClick={closeMenu}></div>}

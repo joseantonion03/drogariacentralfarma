@@ -14,11 +14,11 @@ const Produto = () => {
                 <div className='w-full flex gap-4 my-20 max-lg:mb-3 max-lg:flex-wrap mx-auto max-lg:w-full max-lg:max-w-[820px] max-sm:justify-center'>
                     <div className='bg-white max-w-[400px] w-[calc(100%/3)] max-lg:w-[calc(50%-10px)] max-sm:w-full rounded-md overflow-hidden my-10'>
                         <div className='w-full h-[245px] overflow-hidden'>
-                            <img className='w-full h-full object-cover object-center' src="/image/produto/item1.jpg" alt="Produto" />
+                            <img className='w-full h-full object-cover object-center' src="/image/produto/item1.webp" alt="Benegrip" />
                         </div>
                         <div className='border border-solid border-[#F2F6FA] py-10 px-5'>
-                            <h3 className='font-bold text-[24px] text-[#2E363E]'>Titulo do anuncio</h3>
-                            <p className='text-[#2E363E] font-normal text-[16px] my-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue leo nec suscipit suscipit. </p>
+                            <h3 className='font-bold text-[24px] text-[#2E363E]'>Benegrip</h3>
+                            <p className='text-[#2E363E] font-normal text-[16px] my-3'>Alívio rápido dos sintomas da gripe e resfriado, combatendo febre, dor e congestão nasal. </p>
                             <p className='text-[#43B02A] font-medium text-[18px] my-5'>Consultar preço</p>
                             <Link
                                 className='block bg-primary-color-red hover:bg-secondary-color-red text-white font-medium text-[18px] rounded-md px-10 max-sm:px-3 py-5'
@@ -28,11 +28,11 @@ const Produto = () => {
                     </div>
                     <div className='bg-white max-w-[400px] w-[calc(100%/3)] max-lg:w-[calc(50%-10px)] max-sm:w-full rounded-md overflow-hidden my-10'>
                         <div className='w-full h-[245px] overflow-hidden'>
-                            <img className='w-full h-full object-cover object-center' src="/image/produto/item2.jpg" alt="Produto" />
+                            <img className='w-full h-full object-cover object-center' src="/image/produto/item2.webp" alt="Fralda Pampers" />
                         </div>
                         <div className='border border-solid border-[#F2F6FA] py-10 px-5'>
-                            <h3 className='font-bold text-[24px] text-[#2E363E]'>Titulo do anuncio</h3>
-                            <p className='text-[#2E363E] font-normal text-[16px] my-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue leo nec suscipit suscipit. </p>
+                            <h3 className='font-bold text-[24px] text-[#2E363E]'>Fralda Pampers</h3>
+                            <p className='text-[#2E363E] font-normal text-[16px] my-3'>Conforto e proteção para o bebê, com ajuste perfeito e até 12 horas de absorção. </p>
                             <p className='text-[#43B02A] font-medium text-[18px] my-5'>Consultar preço</p>
                             <Link
                                 className='block bg-primary-color-red hover:bg-secondary-color-red text-white font-medium text-[18px] rounded-md px-10 max-sm:px-3 py-5'
@@ -42,11 +42,11 @@ const Produto = () => {
                     </div>
                     <div className='bg-white max-w-[400px] w-[calc(100%/3)] max-lg:w-[calc(50%-10px)] max-sm:w-full rounded-md overflow-hidden my-10'>
                         <div className='w-full h-[245px] overflow-hidden'>
-                            <img className='w-full h-full object-cover object-center' src="/image/produto/item3.jpg" alt="Produto" />
+                            <img className='w-full h-full object-cover object-center' src="/image/produto/item3.webp" alt="Centrum Essencial" />
                         </div>
                         <div className='border border-solid border-[#F2F6FA] py-10 px-5'>
-                            <h3 className='font-bold text-[24px] text-[#2E363E]'>Titulo do anuncio</h3>
-                            <p className='text-[#2E363E] font-normal text-[16px] my-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue leo nec suscipit suscipit. </p>
+                            <h3 className='font-bold text-[24px] text-[#2E363E]'>Centrum Essencial</h3>
+                            <p className='text-[#2E363E] font-normal text-[16px] my-3'>Multivitamínico completo para suprir as necessidades diárias de vitaminas e minerais. </p>
                             <p className='text-[#43B02A] font-medium text-[18px] my-5'>Consultar preço</p>
                             <Link
                                 className='block bg-primary-color-red hover:bg-secondary-color-red text-white font-medium text-[18px] rounded-md px-10 max-sm:px-3 py-5'

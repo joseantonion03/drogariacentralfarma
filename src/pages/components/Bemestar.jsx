@@ -29,7 +29,7 @@ const Bemestar = () => {
 
                     <div className="sm:absolute flex flex-wrap justify-center gap-x-20 max-xl:gap-x-2 gap-y-14 sm:top-[-220px] sm:left-[50%] sm:translate-x-[-50%] w-full max-w-[1090px] mx-auto max-xl:px-5 max-sm:px-10">
                         <div className="relative w-[500px] max-xl:w-[calc(50%-10px)] max-sm:w-full max-sm:max-w-[400px] max-sm:overflow-hidden max-sm:bg-secondary-color-red max-sm:rounded-xl">
-                            <img className="background-image w-[235px] h-[440px] max-sm:mx-auto max-sm:w-full max-sm:h-auto max-sm:max-h-[300px] max-screen400:max-h-[200px] object-cover" src="/image/bemestar/item1.png" alt="Cuide da sua imunidade" />
+                            <img className="background-image w-[235px] h-[440px] max-sm:mx-auto max-sm:w-full max-sm:h-auto max-sm:max-h-[300px] max-screen400:max-h-[200px] object-cover" src="/image/bemestar/item1.webp" alt="Cuide da sua imunidade" />
                             <div
                                 className="sm:absolute sm:top-[50%] sm:translate-y-[-50%] sm:left-[18%] w-[400px] max-lg:mx-auto max-xl:w-[calc(80%-10px)] rounded-[12px] bg-secondary-color-red text-white font-medium py-14 max-sm:px-1 px-8"
                             >
@@ -38,7 +38,7 @@ const Bemestar = () => {
                             </div>
                         </div>
                         <div className="relative w-[500px] max-xl:w-[calc(50%-10px)] max-sm:w-full max-sm:max-w-[400px] max-sm:overflow-hidden max-sm:bg-secondary-color-red max-sm:rounded-xl">
-                            <img className="background-image w-[235px] h-[440px] max-sm:mx-auto max-sm:w-full max-sm:h-auto max-sm:max-h-[300px] max-screen400:max-h-[200px] object-cover" src="/image/bemestar/item2.png" alt="Cuide da sua imunidade" />
+                            <img className="background-image w-[235px] h-[440px] max-sm:mx-auto max-sm:w-full max-sm:h-auto max-sm:max-h-[300px] max-screen400:max-h-[200px] object-cover" src="/image/bemestar/item2.webp" alt="Montando um Kit de Primeiros Socorros" />
                             <div
                                 className="sm:absolute sm:top-[50%] sm:translate-y-[-50%] sm:left-[18%] w-[400px] max-lg:mx-auto max-xl:w-[calc(80%-10px)] rounded-[12px] bg-secondary-color-red text-white font-medium py-14 max-sm:px-1 px-8"
                                 >
@@ -48,7 +48,7 @@ const Bemestar = () => {
                         </div>
 
                         <div className="relative w-[500px] max-xl:w-[calc(50%-10px)] max-sm:w-full max-sm:max-w-[400px] max-sm:overflow-hidden max-sm:bg-secondary-color-red max-sm:rounded-xl">
-                            <img className="background-image w-[235px] h-[440px] max-sm:mx-auto max-sm:w-full max-sm:h-auto max-sm:max-h-[300px] max-screen400:max-h-[200px] object-cover" src="/image/bemestar/item3.png" alt="Cuide da sua imunidade" />
+                            <img className="background-image w-[235px] h-[440px] max-sm:mx-auto max-sm:w-full max-sm:h-auto max-sm:max-h-[300px] max-screen400:max-h-[200px] object-cover" src="/image/bemestar/item3.webp" alt="Cuidados com a Pele" />
                             <div
                                 className="sm:absolute sm:top-[50%] sm:translate-y-[-50%] sm:left-[18%] w-[400px] max-lg:mx-auto max-xl:w-[calc(80%-10px)] rounded-[12px] bg-secondary-color-red text-white font-medium py-14 max-sm:px-1 px-8"
                                 >
@@ -58,7 +58,7 @@ const Bemestar = () => {
                         </div>
 
                         <div className="relative w-[500px] max-xl:w-[calc(50%-10px)] max-sm:w-full max-sm:max-w-[400px] max-sm:overflow-hidden max-sm:bg-secondary-color-red max-sm:rounded-xl">
-                            <img className="background-image w-[235px] h-[440px] max-sm:mx-auto max-sm:w-full max-sm:h-auto max-sm:max-h-[300px] max-screen400:max-h-[200px] object-cover" src="/image/bemestar/item4.png" alt="Cuide da sua imunidade" />
+                            <img className="background-image w-[235px] h-[440px] max-sm:mx-auto max-sm:w-full max-sm:h-auto max-sm:max-h-[300px] max-screen400:max-h-[200px] object-cover" src="/image/bemestar/item4.webp" alt="Prevenção de Doenças Sazonais" />
                             <div
                                 className="sm:absolute sm:top-[50%] sm:translate-y-[-50%] sm:left-[18%] w-[400px] max-lg:mx-auto max-xl:w-[calc(80%-10px)] rounded-[12px] bg-secondary-color-red text-white font-medium py-14 max-sm:px-1 px-8"
                                 >
@@ -68,7 +68,7 @@ const Bemestar = () => {
                         </div>
 
                         <div className="relative w-[500px] max-xl:w-[calc(50%-10px)] max-sm:w-full max-sm:max-w-[400px] max-sm:overflow-hidden max-sm:bg-secondary-color-red max-sm:rounded-xl">
-                            <img className="background-image w-[235px] h-[440px] max-sm:mx-auto max-sm:w-full max-sm:h-auto max-sm:max-h-[300px] max-screen400:max-h-[200px] object-cover" src="/image/bemestar/item5.png" alt="Cuide da sua imunidade" />
+                            <img className="background-image w-[235px] h-[440px] max-sm:mx-auto max-sm:w-full max-sm:h-auto max-sm:max-h-[300px] max-screen400:max-h-[200px] object-cover" src="/image/bemestar/item5.webp" alt="Importância da Hidratação" />
                             <div
                                 className="sm:absolute sm:top-[50%] sm:translate-y-[-50%] sm:left-[18%] w-[400px] max-lg:mx-auto max-xl:w-[calc(80%-10px)] rounded-[12px] bg-secondary-color-red text-white font-medium py-14 max-sm:px-1 px-8"
                                 >

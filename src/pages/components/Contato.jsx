@@ -12,7 +12,7 @@ const Contato = () => {
                 <div
                     className="w-[50%] relative flex justify-end items-center px-20 max-screen900:w-full max-screen900:px-5 max-screen900:justify-center  max-screen900:min-h-[500px]  max-screen900:py-20"
                 >
-                    <img src="/image/contato/pin.png" className="absolute top-[50%] left-0 translate-y-[-50%] opacity-90 mix-blend-luminosity blur-[4.5px]" alt="Pin" />
+                    <img src="/image/contato/pin.webp" className="absolute top-[50%] left-0 translate-y-[-50%] opacity-90 mix-blend-luminosity blur-[4.5px]" alt="Pin" />
                     <div className='z-[1]'>
                         <h2 className='text-white text-[48px] font-semibold'>Localização</h2>
                         <p className='text-white text-[19px] font-normal mt-2 mb-5'>R. Ribeiro de Lima, 416 - Bom Retiro, São Paulo - SP, 01122-000</p>
@@ -52,7 +52,8 @@ const Contato = () => {
                                 centralfarma.sp
                             </div>
                         </div>
-                        <p className='text-white text-[17px] font-normal my-6'>Horário de Funcionamento: Segunda a Sexta, das 8h às 18h</p>
+                        <p className='text-white text-[17px] font-normal mt-6'>E-mail: drogariacentralfarmabr@gmail.com</p>
+                        <p className='text-white text-[17px] font-normal mt-3 mb-6'>Horário de Funcionamento: Segunda a Sábado, das 7h às 19h</p>
                         <Link
                             to={"https://maps.app.goo.gl/yW5BFbcPRCY1ht2s5"}
                             target='_BLANK'
