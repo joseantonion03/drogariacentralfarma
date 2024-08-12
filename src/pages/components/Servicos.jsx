@@ -40,7 +40,7 @@ const Servicos = () => {
                         <li className="relative max-w-[450px] my-5 before:content-[''] before:absolute before:left-[-35px] before:top-[50%] before:translate-y-[-50%] before:w-[24px] before:h-[24px] before:bg-img_list_servico"><span className="font-medium">Vacinas:</span> Proteja-se e proteja sua família. Confira as vacinas disponíveis.</li>
                         <li className="relative max-w-[450px] my-5 before:content-[''] before:absolute before:left-[-35px] before:top-[50%] before:translate-y-[-50%] before:w-[24px] before:h-[24px] before:bg-img_list_servico"><span className="font-medium">Entrega de Medicamentos:</span> Receba seus medicamentos no conforto da sua casa.</li>
                     </ul>
-                    <Link to={"/"} className="select-none inline-block rounded-[5px] bg-primary-color-red hover:bg-secondary-color-red text-[#ffffff] font-bold text-[20px] text-center px-10 py-3 max-sm:px-5 max-sm:py-5 max-sm:text-[18px]">VERIFIQUE COM O NOSSO TIME</Link>
+                    <Link to={"https://wa.me/551133310007"} className="select-none inline-block rounded-[5px] bg-primary-color-red hover:bg-secondary-color-red text-[#ffffff] font-bold text-[20px] text-center px-10 py-3 max-sm:px-5 max-sm:py-5 max-sm:text-[18px]">VERIFIQUE COM O NOSSO TIME</Link>
 
                 </div>
             </div>
